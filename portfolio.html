@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+         /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Portfolio Grid */
+        .portfolio-section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .col {
+            width: 32%;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .col img {
+            width: 100%;
+            border-radius: 8px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        button {
+            background: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+
+        /* Call to Action */
+        .cta {
+            background: #333;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+        My Website <br>
+       <a href="index.html">Home</a>
+        <a href="ABOUT ME.HTML">About Me</a>
+        <a href="MY FAVORITES.HTML">My Favorites</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact Me</a> 
+    </div>
+        <h1>My Portfolio</h1>
+        
+            
+        
+    </header>
+
+    <!-- Portfolio -->
+    <section class="portfolio-section">
+        <h2>My Projects</h2>
+
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col">
+                <img src="persona.jpg" alt="Personal website">
+                <h3>1. Personal Website</h3>
+                <p>A fully responsive personal website built using HTML and CSS with pages for About, Portfolio, Favorites, and Contact.</p>
+                <button>View More</button>
+            </div>
+
+            <div class="col">
+                <img src="sf.jpg" alt="">
+                <h3>2. Student Management Form</h3>
+                <p>A simple web form used to collect and display student details such as name, gender, and class.</p>
+                <button>View More</button>
+            </div>
+
+            <div class="col">
+                <img src="or.webp" alt="">
+                <h3>3. Online Resume</h3>
+                <p>A structured digital résumé showing education, skills, experience, and achievements using semantic HTML tags.</p>
+                <button>View More</button>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col">
+                <img src="pi.jpg"alt="">
+                <h3>4. Photo Gallery App</h3>
+                <p>A clean and responsive photo gallery layout where users can click images to view them in larger format.</p>
+                <button>View More</button>
+            </div>
+
+            <div class="col">
+                <img src="ca.jpg"alt="">
+                <h3>5. Calculator App</h3>
+                <p>A basic calculator created using HTML, CSS, and JavaScript that performs simple mathematical operations.</p>
+                <button>View More</button>
+            </div>
+
+            <div class="col">
+                <img src="po.jpg" alt="">
+                <h3>6. Organization Landing Page</h3>
+                <p>A modern landing page designed for an organization, featuring mission, services, and a call-to-action button.</p>
+                <button>View More</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Portfolio Website</p>
+    </footer>
+
+</body>
+</html>
